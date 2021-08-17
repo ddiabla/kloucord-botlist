@@ -4,10 +4,7 @@ There's a [setup guide in the wiki](https://github.com/Sank6/Discord-Bot-List/wi
 The development branch may have newer additions/features, but is also potentially more buggy or even insecure. Use at your own risk.
 If you have any issues, check the [FAQs](https://github.com/Sank6/Discord-Bot-List/wiki/FAQs) first please.
 
-# Screenshots
-![Front Page](/screenshots/front.png?raw=true "Front Page")
-![Dark Theme](/screenshots/dark.png?raw=true "Dark Theme")
-![Bot Page](/screenshots/bot.png?raw=true "Bot Page")
+
 
 
 # Features
@@ -33,3 +30,8 @@ ATENCIÓN:
 SI USAS ESTA PLANTILLA DEBERAS DARME CREDITOS A MI TANTO COMO A @SANK6
 
 CUALQUIER ROTURA DE LOS TERMINOS ACLARADOS CONLLEVARA GRAVES CONSECUENCIAS
+
+
+NECESITAS AYUDA?
+
+ASISTE AQUI https://discord.gg/WaBNhGNfQY
