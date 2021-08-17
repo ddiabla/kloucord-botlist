@@ -18,10 +18,10 @@ If you have any issues, check the [FAQs](https://github.com/Sank6/Discord-Bot-Li
  - Mark bot as NSFW when submitting
 
 # Stargazers
-[![Stargazers repo roster for @Sank6/Discord-Bot-List](https://reporoster.com/stars/dark/notext/Sank6/Discord-Bot-List)](https://github.com/Sank6/Discord-Bot-List/stargazers)
+[![Stargazers repo roster for @Sank6/Discord-Bot-List](https://reporoster.com/stars/dark/notext/ddiabla/kloucord-botlist)](https://github.com/ddiabla/kloucord-botlist/stargazers)
 
 # Forkers
-[![Forkers repo roster for @Sank6/Discord-Bot-List](https://reporoster.com/forks/dark/notext/Sank6/Discord-Bot-List)](https://github.com/Sank6/Discord-Bot-List/network/members)
+[![Forkers repo roster for @Sank6/Discord-Bot-List](https://reporoster.com/forks/dark/notext/ddiabla/kloucord-botlist)](https://github.com/ddiabla/kloucord-botlist/network/members)
 
 
 
