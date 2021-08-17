@@ -1,0 +1,14 @@
+doctype html
+include includes/head.pug
+body(onload="load()")
+    include includes/nav.pug
+    #content
+        span.header
+            h1 Etc...
+            
+            p The discord botlist.
+        #searchMore
+            | Would you like to 
+            a(href='/bots/search/') search all bots
+        #cards
+            span#loading Loading... Your badass assets

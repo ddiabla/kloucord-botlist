@@ -1,0 +1,53 @@
+doctype html
+include includes/head.pug
+script(src='/assets/js/edit.js')
+script(src='/assets/js/form.js')
+script(src="https://www.google.com/recaptcha/api.js" async defer)
+link(rel="stylesheet" href="/assets/css/tags.css")
+
+body
+    include includes/nav.pug
+    #content
+        span.header
+            h1 Añade a tu BOT
+            p Rellena este pequeño formulario, ¡Ten en cuenta que debes estar en el servidor!
+        br
+        form.center
+            .input-holder
+                input#botid.input(type='text' placeholder=' ')
+                .placeholder ID del bot
+            br
+            .input-holder
+                input#prefix.input(type='text' placeholder=' ')
+                .placeholder Prefijo común
+            br
+            .input-holder
+                input#description.input(maxlength=max_summary_length type='text' placeholder=' ')
+                .placeholder Una descripción corta
+            br
+            .input-holder
+                textarea#longdesc.input(rows='7')
+                .textarea-placeholder Descripción
+
+                
+            br
+            .input-holder
+                input#note.input(maxlength=max_summary_length type='text' placeholder=' ')
+                .placeholder Nota para el administrador.
+            br
+            .input-holder
+                input#ownerids.input.xinput(type='text' placeholder=' ')
+                .placeholder IDs adicionales
+                
+            br
+            .input-holder
+                input#invite.input(type='text' placeholder=' ')
+                .placeholder Invitación Personalizada
+                
+                
+                
+            br
+            .center-inline.g-recaptcha(data-callback='update_token' data-sitekey=site_key data-theme=req.cookies["theme"] || "light")
+            a.button(onclick='submit()') Mandar
+            br
+        br
